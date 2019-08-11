@@ -1,37 +1,54 @@
-# Flexible-Jekyll is a simple and clean theme for Jekyll
+# Hello Page
 
-![](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/promo-img.jpg?raw=true)
+<img src="https://raw.githubusercontent.com/jlord/forkngo/gh-pages/badges/cobalt.png" width="200">
 
-## Demo
+![screenshot](https://user-images.githubusercontent.com/1305617/45956448-87fec380-bfe0-11e8-8b8c-1bbbee7552c6.png)
 
-Check the theme in action [Demo](https://artemsheludko.github.io/flexible-jekyll/)
+A so very simple personal site.
 
-The main page would look like this:
+This is a [Fork-n-Go](http://jlord.github.io/forkngo) project, so fork to get started making your own.
 
-![Main page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/home-page.jpg?raw=true)
+See the demo at [jlord.github.io/hello](http://jlord.github.io/hello).
 
-The post page would look like this:
+## Create your own
 
-![Post page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/post-example.jpg?raw=true)
 
-## Features
+| You'll Need:                                 | ☟                                                 |
+|:---------------------------------------------|:--------------------------------------------------|
+| [GitHub](http://www.github.com/join) account | Basic [HTML](http://learn.shayhowe.com/html-css/) |
 
-- [Google Fonts](https://fonts.google.com/)
-- [Font Awesome](http://fontawesome.io/)
-- [Disqus](https://disqus.com/)
-- [Analytics](https://analytics.google.com/analytics/web/)
-- Support Emoji
 
-## Installation:
+### First, fork this repository.
 
-Fork the ``master`` branch and follow the [Jekyll Installation Documentation](https://jekyllrb.com/docs/installation/).
+Click the fork button in the upper right. Now you have a copy of this repository on your GitHub account!
 
-## License
+### Rename your fork
 
-GNU General Public License v3.0
+Once you've forked it, click on Settings and rename your fork, because probably `hello` is not what you want in your URL. Name your new repository: `username.github.io` (but make `username` your username, for instance, I'd use `jlord.github.io`). GitHub will host all website files on the `master` branch of a repo with that account name convention. Woo! More info on that at [pages.github.com](http://www.pages.github.com).
 
-## Donate
+You can also give it any 'ol name and GitHub will host it using this pattern: `username.github.io/reponame`. Or you can keep it named `hello` and find it at: `username.github.io/hello`.
 
-<p>If you want to show your appreciation, buy me one <a href="https://www.buymeacoffee.com/artemsheludko" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a> ! Every five cups of coffee and a new theme for Jekyll is ready 😋</p>
-<p>Either way, your support is a way to thank me ❤️</p>
-<p align="center"><b>Thank you for your support!</b></p>
+### Make yours live
+
+1. From your fork's page on GitHub, click the index.html link, then on the next page click Edit.
+2. Make changes to the HTML so that the site reflects your name and bio.
+8. At the bottom of the site, click the Commit button to save your changes.
+
+Now your site is live! Go check it out!
+
+
+### Style
+
+There are basic styles included in `style.css` but go wild and make it your own, try other things!
+
+### Bonus Style
+
+![2](screenshot2.png)
+
+There is another style option included within this repository. If you change the CSS file specified on **line 7** in `index.html` to:
+
+```HTML
+<link rel="stylesheet" type="text/css" href="css/style.css"
+```
+
+Then you'll get the other option! Commit your changes to make it live. Change the file called for back to `css/style2.css` to go back to the other.
