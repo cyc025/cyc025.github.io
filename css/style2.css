@@ -18,6 +18,10 @@ background: #A3E4D7; /* Old browsers */
     float: right;    
 }
 
+.bold {
+  font-weight:bold;
+}
+
 body, html {height: 100%;}
 
 .wrapper {box-sizing: border-box; height: 100%; overflow: auto; }
