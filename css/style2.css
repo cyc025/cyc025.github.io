@@ -10,10 +10,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#A3E4D7', end
 
 }
 
-#nav{
-  width:1000px;
+.left {
+    float: left;    
 }
-#body{
+.right {
+    float: right;    
 }
 
 body, html {height: 100%;}
